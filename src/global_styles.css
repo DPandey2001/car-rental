@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "~@fontsource/inter/index.css";
+@import "~@fontsource/pacifico/index.css";
+@import "~@fontsource/inter/index.css";
+@import "~@fontsource/pacifico/index.css";
+
+:root {
+  --primary-color:rgb(59 130 246 / var(--tw-text-opacity, 1));
+  --secondary-color: rgb(59 130 246 / var(--tw-text-opacity, 1));
+  --accent-color: rgb(59 130 246 / var(--tw-text-opacity, 1));
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  /* font-family: 'Arial', sans-serif; */
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3 {
+  font-family: 'Pacifico', cursive;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 0.5rem;
+  }
+}
